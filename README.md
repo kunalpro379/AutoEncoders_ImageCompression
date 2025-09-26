@@ -82,19 +82,6 @@ where:
 - p(z) = N(0, I) is the prior
 
 
-## Notebooks & Insights
-
-### `ImageCompression_AutoEncoderModel.ipynb`
-- Implements a standard Autoencoder for image compression
-- Reconstructions are sharp and closely match input images
-
-### `VAE_ImageCompression.ipynb`
-- Implements a Variational Autoencoder
-- Reconstructions are slightly blurrier, but the model learns a smooth latent space
-
-### `ImageCompression.ipynb`
-- Supporting notebook for preprocessing and baseline compression experiments
-
 ## Key Takeaways
 
 - **AE** = better for sharp, high-fidelity compression
