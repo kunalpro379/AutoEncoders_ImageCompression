@@ -2,7 +2,7 @@
 
 A comprehensive project exploring neural network-based image compression techniques using Autoencoders (AE) and Variational Autoencoders (VAE).
 
-## 📌 Theory
+## Theory
 
 ### Autoencoders (AE)
 - Neural networks trained to reconstruct input data
@@ -18,7 +18,7 @@ A comprehensive project exploring neural network-based image compression techniq
 - Reconstructions may be blurrier due to random sampling, but representation is more robust
 - Useful for compression + generative modeling
 
-## 🔍 Key Differences in Compression
+## Key Differences in Compression
 
 
 | Aspect | Autoencoder (AE) | Variational Autoencoder (VAE) |
@@ -82,7 +82,7 @@ where:
 - p(z) = N(0, I) is the prior
 
 
-## 📊 Notebooks & Insights
+## Notebooks & Insights
 
 ### `ImageCompression_AutoEncoderModel.ipynb`
 - Implements a standard Autoencoder for image compression
@@ -95,13 +95,13 @@ where:
 ### `ImageCompression.ipynb`
 - Supporting notebook for preprocessing and baseline compression experiments
 
-## 🔥 Key Takeaways
+## Key Takeaways
 
 - **AE** = better for sharp, high-fidelity compression
 - **VAE** = better for structured latent space & generative tasks, but with some quality trade-off
 
 
-## 📈 Expected Results
+## Expected Results
 
 ### Autoencoder Results
 - High-fidelity reconstructions
